@@ -26,6 +26,9 @@ app.use(async (_req, res, next) => {
 });
 
 app.get("/api/health", (_req, res) => res.json({ status: "ok", service: "VedaCare API" }));
+app.get("/api/test", (_req, res) => {
+  res.json({ message: "Server updated successfully" });
+});
 
 app.use("/api/auth", authRoutes);
 app.use("/api/dashboard", dashboardRoutes);
