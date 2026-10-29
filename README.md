@@ -1,4 +1,4 @@
-# VedaCare — AI Powered Elderly Healthcare Assistant
+# VedaCare — AI Agent for Healthcare Assistant
 
 Scaffold for the full spec, with **working auth** and a **fully built Health Dashboard**
 (cards, animated vitals rings, weekly trend charts, dark/light mode, medicine reminder list,
